@@ -22,7 +22,7 @@ function SignUpForm({ onLogin }) {
       body: JSON.stringify({
         username,
         password,
-        password_confirmation: passwordConfirmation,
+        // password_confirmation: passwordConfirmation,
         image_url: imageUrl,
         bio,
       }),
